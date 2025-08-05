@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Showcase of HTML5 lists, tables, media, and a complete validated form." />
+  <meta name="keywords" content="HTML5, forms, validation, lists, tables, media" />
+  <meta name="author" content="OKANGA" />
+  <title>Enhanced HTML5 Page</title>
+</head>
+<body>
+
+  <header>
+    <h1>OKANGA LEARNING ACADEMY</h1>
+    <p>Demonstrating lists, tables, media, and a complete form with HTML5 validation.</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Popular Programming Languages</h2>
+      <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>Go</li>
+        <li>Rust</li>
+      </ul>
+
+      <h3>Steps to Learn HTML</h3>
+      <ol>
+        <li>Understand HTML tags and structure</li>
+        <li>Use semantic elements</li>
+        <li>Learn how to build forms</li>
+        <li>Apply validation techniques</li>
+        <li>Practice regularly</li>
+      </ol>
+    </section>
+
+
+    <section>
+      <h2>Web Development Course Schedule</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Week</th>
+            <th>Topic</th>
+            <th>Assignment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>HTML Basics</td>
+            <td>Build a homepage</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>CSS Styling</td>
+            <td>Style your homepage</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>HTML Forms</td>
+            <td>Create a contact form</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+    <section>
+      <h2>Learning Resources</h2>
+      <figure>
+        <img src="https://via.placeholder.com/400x200" alt="Coding Illustration" width="400" />
+        <figcaption>HTML5 makes the web more accessible and structured.</figcaption>
+      </figure>
+
+      <h3>AUDIO</h3>
+      <audio controls>
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3>VIDEO</h3>
+      <video controls width="400">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section>
+      <h2>Registration Form</h2>
+      <form action="#" method="post" autocomplete="on">
+        <fieldset>
+          <legend>Personal Details</legend>
+
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" placeholder="John Doe" required /><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="example@email.com" required /><br><br>
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required /><br><br>
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="0712345678" required /><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Account Setup</legend>
+
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" minlength="5" required /><br><br>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" minlength="6" required /><br><br>
+
+          <label for="confirm">Confirm Password:</label>
+          <input type="password" id="confirm" name="confirm" minlength="6" required /><br><br>
+
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option>
+          </select><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+
+          <p>Subscribe to newsletter?</p>
+          <input type="radio" id="yes" name="subscribe" value="yes" required />
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="subscribe" value="no" />
+          <label for="no">No</label><br><br>
+
+          <label for="comments">Comments:</label><br>
+          <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter any comments..."></textarea>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Register" />
+        <input type="reset" value="Clear Form" />
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 OKANGA LEARNING ACADEMY. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
